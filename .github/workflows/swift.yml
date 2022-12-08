@@ -22,7 +22,7 @@ jobs:
       run: swift test -v
   codecov:
     container:
-      image: swift:5.3
+      image: swift:5.7
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
