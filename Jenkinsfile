@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh swift build -v 
+                sh 'swift build -v'
             }
         }
     }
